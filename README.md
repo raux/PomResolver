@@ -9,4 +9,5 @@ Operation:
 3. Ouput is in the output/libs folder. libraries.cvs shows direct dependencies, listing shows all the transitive dependencies.
 
 Format for dependency is libraries.csv --> filepath+"#"+Name+"#"+version+"#"+pomfilepath+"#"+scope
+
                           listing.csv --> dependencyFile+"#"+Name+"#"+version+"#"+GroupId+"#"+getArtifactId()
