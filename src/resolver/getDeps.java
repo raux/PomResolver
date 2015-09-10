@@ -13,7 +13,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.DirectoryFileFilter;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
-public class getDeps {
+public class GetDeps {
 	
 	public static void main(String[] args) throws IOException{
 		
@@ -22,6 +22,7 @@ public class getDeps {
 		System.out.println(getDeps(baseSite, projs));
 			
 	}
+	
 	private static void scanPom (String dirString, String baseSite){
 		
 		Collection <File> found = FileUtils.listFilesAndDirs
